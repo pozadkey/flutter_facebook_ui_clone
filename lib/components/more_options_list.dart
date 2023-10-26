@@ -6,7 +6,7 @@ import '../models/models.dart';
 import 'user_card.dart';
 
 class MoreOptionsList extends StatelessWidget {
-  final List<List> _moreOptionsList =  [
+  final List<List> _moreOptionsList = [
     [MdiIcons.shieldAccount, Colors.deepPurple, 'COVID-19 Info Center'],
     [MdiIcons.accountMultiple, Colors.cyan, 'Friends'],
     [MdiIcons.facebookMessenger, ColorPallette.facebookBlue, 'Messenger'],
@@ -18,8 +18,8 @@ class MoreOptionsList extends StatelessWidget {
 
   final User currentUser;
 
-   MoreOptionsList({
-    Key ?key,
+  MoreOptionsList({
+    Key? key,
     required this.currentUser,
   }) : super(key: key);
 
@@ -66,7 +66,6 @@ class _Option extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-     
       child: Row(
         children: [
           Icon(icon, size: 38.0, color: color),

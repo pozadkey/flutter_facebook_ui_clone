@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_facebook_ui_clone/config/color_palette.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
-
 import '../models/models.dart';
 import 'circle_button.dart';
 import 'custom_tab_bar.dart';

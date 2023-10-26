@@ -1,11 +1,16 @@
 import 'package:flutter/material.dart';
 
+// Import the User model and UserCard widget.
 import '../models/models.dart';
 import 'user_card.dart';
 
+// Define a custom ContactsList widget.
 class ContactsList extends StatelessWidget {
+  // Declare a list of users to display in the contact list.
   final List<User> users;
 
+  // Constructor for the ContactsList widget.
+  // It takes a required parameter: users.
   const ContactsList({
     Key? key,
     required this.users,
@@ -17,6 +22,7 @@ class ContactsList extends StatelessWidget {
       constraints: const BoxConstraints(maxWidth: 280.0),
       child: Column(
         children: [
+          // Display the section header with search and more icons.
           Row(
             children: [
               Expanded(
@@ -48,6 +54,7 @@ class ContactsList extends StatelessWidget {
                 final User user = users[index];
                 return Padding(
                   padding: const EdgeInsets.symmetric(vertical: 8.0),
+                  // Display a UserCard widget for each user.
                   child: UserCard(user: user),
                 );
               },
