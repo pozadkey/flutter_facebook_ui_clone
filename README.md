@@ -1,4 +1,4 @@
-# Flutter Faccebook UI Clone
+# Flutter Facebook UI Clone
 
 This Flutter project replicates the user interface of Facebook. It serves as an example of how to build a Facebook-like interface using Flutter, showcasing features such as the News Feed, Stories, and a simplified version of the Facebook app's UI.
 
