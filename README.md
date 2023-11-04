@@ -12,13 +12,6 @@ This Flutter project replicates the user interface of Facebook. It serves as an 
 
 > [https://github.com/pozadkey/flutter_facebook_ui_clone](https://github.com/pozadkey/flutter_facebook_ui_clone/)
 
-
-- Open the project's root folder and excute the following command to get the dependencies
-
-```
-flutter pub get
-```
-
 - Enable web support and run the project in Chrome
 
 ```
