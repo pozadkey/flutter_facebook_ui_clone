@@ -22,4 +22,4 @@ flutter run -d chrome
 
 # Live Preview
 
-Click [Here](https://app.netlify.com/sites/flutter-facebook-ui-clone/overview)
+Click [Here](https://flutter-facebook-ui-clone.netlify.app)
