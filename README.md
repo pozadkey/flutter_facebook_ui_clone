@@ -1,16 +1,32 @@
-# flutter_facebook_ui_clone
+# Flutter Faccebook UI Clone
 
-A new Flutter project.
+This Flutter project replicates the user interface of Facebook. It serves as an example of how to build a Facebook-like interface using Flutter, showcasing features such as the News Feed, Stories, and a simplified version of the Facebook app's UI.
 
-## Getting Started
+# Screenshot
 
-This project is a starting point for a Flutter application.
+![Screenshot](https://github.com/pozadkey/flutter_facebook_ui_clone/blob/master/screenshots/facebook-clone.png)
 
-A few resources to get you started if this is your first Flutter project:
+# Usage
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Clone this repo via the link below:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+> [https://github.com/pozadkey/flutter_facebook_ui_clone](https://github.com/pozadkey/flutter_facebook_ui_clone/)
+
+
+- Open the project's root folder and excute the following command to get the dependencies
+
+```
+flutter pub get
+```
+
+- Enable web support and run the project in Chrome
+
+```
+flutter config --enable-web
+
+flutter run -d chrome
+```
+
+# Live Preview
+
+Click [Here](https://app.netlify.com/sites/flutter-facebook-ui-clone/overview)
